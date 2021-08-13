@@ -1,0 +1,44 @@
+.section-tiket {
+    h1.tiket {
+        font-family: "Kalam", cursive;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #82cc79;
+    }
+
+    .col {
+        vertical-align: middle;
+    }
+
+    .ticket-heading {
+        font-size: 18px;
+        line-height: 20px;
+        h5.member-name {
+            font-weight: 600;
+        }
+    }
+
+    .table {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .row.notes {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        line-height: 20px;
+    }
+
+    .btn-maps {
+        background-color: #82cc79;
+        border-radius: 4px;
+        color: #fafafa;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #f2e8e9;
+            color: #82cc79;
+        }
+    }
+}

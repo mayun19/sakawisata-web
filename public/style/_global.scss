@@ -1,0 +1,45 @@
+body {
+    background-color: #ffff;
+    font-family: "Assistant", sans-serif;
+    color: #f2e8e9;
+}
+
+.page-content {
+    margin-top: 100px;
+}
+
+//Footer
+.section-footer {
+    li {
+        margin-bottom: 15px;
+
+        a {
+            color: #a56c70;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h3 {
+        font-family: "Kalam";
+        font-weight: bold;
+        font-size: 30px;
+        color: #a56c70;
+    }
+
+    .footer-ic-socmed {
+        a {
+            margin-right: 20px;
+        }
+    }
+
+    p {
+        color: #a56c70;
+    }
+}
+
+.form-control {
+    background-color: #f3f3f3;
+}

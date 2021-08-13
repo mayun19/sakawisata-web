@@ -1,0 +1,35 @@
+.section-success {
+    min-height: 87vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        color: #589351;
+    }
+
+    p {
+        font-weight: 450;
+        font-size: 18px;
+        color: #212529;
+
+        a {
+            color: #589351;
+            font-weight: 600;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background-color: #43a18e;
+        color: #f2e8e9;
+
+        &:hover {
+            background-color: #f2e8e9;
+            color: #43a18e;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+/* profil admin */
+
+.item-foto {
+    img.profil-img-top {
+        width: 100px;
+        margin: auto;
+    }
+}
+
+.btn-profil {
+    background-color: #b1b1b1;
+    color: #fafafa;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        background-color: #f2e8e9;
+        color: #b1b1b1;
+    }
+}
+
+.btn-profil input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}

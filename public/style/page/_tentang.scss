@@ -1,0 +1,162 @@
+// Page Tentang
+// Header
+.section-tentang-header {
+    min-height: 310px;
+    background-image: url("../img/pic_tentang_header.png");
+    background-size: cover;
+    margin-top: -77px;
+    padding: 180px 0 80px;
+
+    h1 {
+        font-family: "Kalam", cursive;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.section-tentang-nav {
+    min-height: 60px;
+    padding: 10px;
+    background: #fafafa;
+
+    a {
+        font-weight: 600;
+        font-size: 18px;
+        color: #2e2c2c;
+    }
+
+    a.nav-link.active {
+        color: #82cc79f9;
+        border-bottom: 2px solid #82cc79f9;
+    }
+}
+
+.section-tentang-content {
+    .row-tentang-kkauman {
+        background-color: #e5dddfef;
+        opacity: 0.65;
+    }
+
+    .kKauman-content {
+        margin: 0 auto;
+        padding: 20px 30px;
+    }
+
+    #kKauman {
+        min-height: 350px;
+        background-color: #e5dddfef;
+        opacity: 0.65;
+
+        .kKauman-deskripsi {
+            color: #2e2c2c;
+            text-align: justify;
+
+            p {
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .kKauman-judul,
+    .sWisata-judul,
+    .vMisi-judul,
+    .gMaps-judul {
+        margin-bottom: 25px;
+        font-size: 30px;
+        color: #589351;
+        text-align: center;
+    }
+
+    .sWisata {
+        background: #ffff;
+
+        p {
+            color: #2e2c2c;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+
+        .sWisata-deskripsi {
+            text-align: center;
+        }
+
+        .sWisata-content {
+            min-height: 250px;
+            background-color: #e5dddfef;
+            opacity: 0.65;
+        }
+
+        #lsWisata {
+            margin: 0 auto;
+            padding: 20px 30px;
+            font-size: 18px;
+        }
+
+        .vMisi-content {
+            color: #2e2c2c;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+
+        .visi,
+        .misi {
+            text-align: justify;
+        }
+
+        .sosmed {
+            li {
+                a {
+                    margin-right: 30px;
+                }
+            }
+        }
+
+        .contact {
+            min-height: 300px;
+            background-image: url("../img/bg_contact.png");
+            background-size: cover;
+
+            .contact-layout {
+                margin: -5px 5px auto;
+                padding: 50px 40px;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .judul {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 18px;
+                color: hsla(349, 48%, 95%, 0.976);
+            }
+        }
+    }
+}
+
+/* Dashboard Tentang Profil */
+.dashboard-content {
+    .section-tentang-nav {
+        min-height: 60px;
+        background: none !important;
+
+        a {
+            font-weight: 600;
+            font-size: 18px;
+            color: #2e2c2c;
+        }
+
+        a.nav-link.active {
+            color: #2e2c2c !important;
+            border-bottom: 3px solid #d8a2a6;
+        }
+    }
+
+    .section-tentang-content #kKauman {
+        background-color: #fff !important;
+    }
+}

@@ -1,0 +1,85 @@
+.reschedule {
+    color: #707070;
+    .member-heading {
+        hr.member-line {
+            float: left !important;
+            width: 70px;
+            border-width: 4px;
+            border-radius: 12px;
+            background-color: #82cc79f9;
+        }
+
+        .member-title,
+        .content-title {
+            color: #a56c70;
+            font-weight: 600;
+        }
+    }
+
+    .row.btn-ajukan {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    //rekomendasi
+    .member-subtitle {
+        margin-top: 50px;
+    }
+
+    .list-jadwal {
+        h4.content-title {
+            font-weight: 600;
+            font-size: 23px;
+            color: #a56c70;
+        }
+    }
+    table.table-borderless {
+        margin-top: -20px;
+        line-height: 15px !important;
+
+        td {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+
+.notes p {
+    color: #707070 !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+/* admin */
+.section-reschedule {
+    color: #2e0a0c !important;
+    font-size: 16px;
+
+    .btn-tolak {
+        background-color: #ae5259;
+        color: #f2e8e9;
+
+        &:hover {
+            background-color: #f2e8e9;
+            color: #ae5259;
+        }
+    }
+
+    .btn-reschedule {
+        background-color: #82cc79;
+        color: #f2e8e9;
+
+        &:hover {
+            background-color: #f2e8e9;
+            color: #82cc79;
+        }
+    }
+}
+
+/* admin rekomendasi */
+.opsi-rekomendasi {
+    td {
+        text-align: center;
+    }
+}

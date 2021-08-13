@@ -1,0 +1,171 @@
+/* Page Login */
+.login-container {
+    @media (min-width: 768px) {
+        // width: 98.5vw;
+        width: 100%;
+        overflow-x: hidden;
+        height: 100vh;
+    }
+}
+
+.page-login {
+    .section-left,
+    .section-right {
+        @media (min-width: 768px) {
+            height: 100vh;
+        }
+    }
+
+    .section-left {
+        background-image: url("../img/bg_login.png");
+        .login-heading {
+            h1 {
+                font-family: "Kalam", cursive !important;
+                font-weight: bold;
+                font-size: 40px;
+
+                span {
+                    color: rgba(130, 204, 121, 0.98);
+                }
+            }
+        }
+    }
+
+    .section-right {
+        background-color: rgba(22, 22, 22, 0.92);
+        @media (max-width: 768px) {
+            height: 100vh;
+        }
+
+        .form-control {
+            background-color: rgba(0, 0, 0, 0.85);
+            border: 1px solid rgba(0, 0, 0, 0.85) !important;
+            color: rgba(249, 238, 240, 0.98);
+            font-size: 17px;
+        }
+
+        .logo {
+            margin-top: -20px;
+            img {
+                width: 194px;
+            }
+        }
+
+        a {
+            color: #f2e8e9;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .login-heading,
+    .login-form {
+        @media (min-width: 768px) {
+            margin-top: 50px;
+        }
+
+        .btn-show {
+            border: none !important;
+        }
+    }
+}
+
+/* Page Daftar */
+.daftar-container {
+    color: #bfbfbf !important;
+    background-image: url("../img/bg_daftar_new.png");
+    background-size: cover;
+    background-position: center;
+
+    // .navbar-brand {
+    //     background-color: var(--white);
+    //     opacity: 0.58;
+    // }
+
+    .section-footer p {
+        color: rgba(249, 238, 240, 0.98);
+    }
+}
+.card-daftar {
+    // border: 1px solid #ae5259 !important;
+    background-color: rgba(44, 44, 44, 0.66) !important;
+
+    .daftar-content {
+        color: #bfbfbf;
+        h3.daftar {
+            color: rgba(249, 238, 240, 0.98);
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .form-control {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: #f9eef0f9;
+            border: solid 1px #625332;
+        }
+
+        .btn-outline-secondary {
+            background-color: rgba(0, 0, 0, 0.85);
+            border: solid 1px #625332;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.85);
+            }
+        }
+
+        .form-check-label {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        a {
+            color: #bfbfbf;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* Page Reset Password */
+.form-reset {
+    .header {
+        color: rgba(229, 221, 223, 0.94);
+
+        h3.reset {
+            font-weight: 600;
+            line-height: 33px;
+        }
+
+        p.subtitle {
+            line-height: 20px;
+            font-size: 17px;
+            font-weight: 300;
+        }
+    }
+
+    .form-control {
+        background-color: rgba(0, 0, 0, 0.85);
+        border: 1px solid rgba(0, 0, 0, 0.85) !important;
+        color: rgba(249, 238, 240, 0.98);
+        font-size: 17px;
+    }
+}
+
+.btn-login-auth,
+.btn-daftar,
+.btn-reset {
+    background-color: #82cc79 !important;
+    color: #f2e8e9;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    &:hover {
+        background-color: #f2e8e9 !important;
+        color: #82cc79 !important;
+    }
+}

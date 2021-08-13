@@ -1,0 +1,159 @@
+/* member pembatalan */
+
+h5.pembatalan-title,
+h5#pembatalan {
+    color: #a56c70;
+    font-weight: 550;
+}
+
+.timeline-content {
+    p {
+        font-weight: 500;
+        line-height: 1.3 !important;
+        font-size: 16px;
+        opacity: 0.8;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .timeline {
+        position: relative;
+        padding-left: 4rem;
+        margin: 0 0 0 30px;
+        color: #a56c70;
+    }
+
+    .timeline:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 4px;
+        height: 100%;
+        background: #f0f1f3;
+    }
+
+    .timeline .timeline-container {
+        position: relative;
+        margin-bottom: 1.2rem;
+    }
+
+    .timeline .timeline-container .timeline-icon {
+        position: absolute;
+        left: -88px;
+        top: -1px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .timeline .timeline-container .timeline-icon img {
+        width: 100%;
+        height: 100%;
+    }
+    /* .timeline .timeline-container .timeline-body {
+      padding: 15px 15px 10px;
+    } */
+
+    .timeline .timeline-container .timeline-body:before {
+        content: "";
+        background: inherit;
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        left: -10px;
+        transform: rotate(45deg);
+        border-radius: 0 0 0 2px;
+    }
+
+    .timeline .timeline-container .timeline-body .timeline-title {
+        color: #ffffff;
+        margin-bottom: 0.7rem;
+    }
+
+    .timeline .timeline-container .timeline-body .timeline-title .badge {
+        background: #337ab7;
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .timeline .timeline-container .timeline-body .timeline-subtitle {
+        font-weight: 450;
+        font-style: italic;
+        opacity: 0.6;
+        font-size: 14px;
+    }
+
+    .timeline .timeline-container.primary .badge {
+        background: #337ab7 !important;
+    }
+
+    .timeline .timeline-container.primary .timeline-icon {
+        background: #337ab7 !important;
+    }
+
+    .timeline .timeline-container.success .badge {
+        background: #00bf9a !important;
+    }
+
+    .timeline .timeline-container.danger .badge {
+        background: #fd5d93 !important;
+    }
+    .timeline .timeline-container.danger .timeline-icon,
+    .timeline .timeline-container.success .timeline-icon {
+        background: #fafafa !important;
+    }
+}
+
+.timeline.admin-pembatalan {
+    .timeline-icon {
+        left: -80px !important;
+        top: -1px;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .timeline-container {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    .timeline-title {
+        color: #ffffff;
+        margin-bottom: 0.2rem;
+    }
+
+    .timeline-title .badge {
+        font-size: 15px !important;
+    }
+}
+
+.pembatalan-content {
+    hr#pembatalan {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+    }
+
+    td.alasan-batal {
+        text-align: justify;
+    }
+}
+
+.section-pemesanan p.pembatalan-title {
+    font-size: 15px;
+}
+
+.badge.bank {
+    background-color: #f2e8e9 !important;
+}
+
+.refund label {
+    margin-bottom: 5px;
+}

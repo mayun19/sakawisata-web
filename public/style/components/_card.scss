@@ -1,0 +1,99 @@
+.card {
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 #00000029;
+    border: none;
+    text-decoration: none !important;
+
+    .dashboard-card-title {
+        font-size: 16px;
+        line-height: 1.31;
+        color: #d8a2a6;
+    }
+
+    .dashboard-card-subtitle {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.33;
+        color: #707070;
+    }
+    .table thead th {
+        vertical-align: text-top !important;
+    }
+
+    a.link-detail {
+        color: #707070 !important;
+        text-decoration: none;
+    }
+
+    #tambah.card-body {
+        color: #2e0a0c !important;
+
+        label,
+        .item-tambah,
+        .item-detail-foto,
+        .item-situs-gallery,
+        .item-situs-foto {
+            font-weight: 600;
+        }
+
+        label.custom-control-label {
+            font-weight: 400 !important;
+        }
+
+        .btn-tambah {
+            background-color: #82cc79;
+            color: #fafafa;
+            font-size: 16px;
+
+            &:hover {
+                background-color: #f2e8e9;
+                color: #82cc79;
+            }
+        }
+
+        .btn-gallery {
+            background-color: #b1b1b1;
+            color: #fafafa;
+            font-size: 16px;
+            position: relative;
+            overflow: hidden;
+
+            &:hover {
+                background-color: #f2e8e9;
+                color: #b1b1b1;
+            }
+        }
+
+        .btn-gallery input[type="file"] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            min-width: 100px;
+            min-height: 100px;
+            font-size: 100px;
+            text-align: right;
+            filter: alpha(opacity=0);
+            opacity: 0;
+            outline: none;
+            cursor: inherit;
+            display: block;
+        }
+
+        ul {
+            padding-left: 20px;
+
+            li {
+                font-size: 14px;
+                color: #707070;
+                font-weight: 400;
+            }
+        }
+
+        .situs-gallery {
+            img.situs-foto {
+                height: 170px;
+            }
+        }
+    }
+}

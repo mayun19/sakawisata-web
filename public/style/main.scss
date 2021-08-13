@@ -1,0 +1,681 @@
+// Import Bootstrap 4 Library
+@import "../bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+@import "footer";
+
+@import "page/auth";
+@import "page/member";
+@import "page/profil";
+@import "page/tiket";
+@import "page/laporan";
+@import "page/reschedule";
+@import "page/dashboard";
+@import "page/tentang";
+@import "page/testimoni";
+@import "page/event";
+@import "page/faq";
+@import "page/paket";
+@import "page/pemandu";
+@import "page/bktamu";
+@import "page/success";
+@import "page/situs";
+@import "page/pemesanan";
+@import "page/pembatalan";
+@import "page/dashboard-event";
+@import "page/dashboard-fasilitas";
+
+@import "components/card";
+
+@import "transitions/slide-fade";
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    width: 130px;
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #a56c70;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #ce8489;
+        color: #ffffff;
+    }
+}
+
+// Header
+header {
+    height: 650px;
+    padding: 180px 0 80px;
+    margin-top: -77px;
+    background-image: url("../img/bg_header.jpg");
+    background-size: cover;
+
+    h1 {
+        font-family: "Kalam", cursive;
+        font-weight: bold;
+        font-size: 45px;
+
+        span {
+            color: #82cc79fa;
+        }
+    }
+
+    p {
+        color: #f2e8e9;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    a {
+        padding-top: 50px;
+    }
+
+    .btn-jelajahi {
+        background-color: #82cc79fa;
+        color: #f2e8e9;
+        border-radius: 4px;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #f2e8e9;
+            color: #82cc79fa;
+        }
+    }
+}
+
+// HL Paket
+.section-hl-paket {
+    min-height: 350px;
+    background-color: #72373cf7;
+    margin-bottom: 50px;
+
+    .section-hl-paket-heading {
+        margin-top: 35px;
+
+        h2,
+        p {
+            color: #f2e8e9;
+        }
+    }
+
+    h2 {
+        font-family: "kalam";
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+
+.section-hl-paket-content {
+    margin-top: -250px;
+
+    .section-hl-paket-row {
+        .card-paket {
+            min-height: 350px;
+            // background: linear-gradient(180deg, #00000099 0%, #00000000 100%);
+            background: #dddd;
+            color: #212529;
+            padding: 30px;
+            border-radius: 5px;
+            background-size: cover;
+            margin-bottom: 40px;
+        }
+
+        .paket-hl {
+            font-size: 18px;
+        }
+
+        .hl-paket-name {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .hl-paket-button {
+            .btn-hl-paket-detail {
+                background-color: #82cc79f9;
+                color: #f2e8e9;
+                font-size: 16px;
+                font-weight: 600;
+
+                &:hover {
+                    background-color: #f2e8e9;
+                    color: #82cc79f9;
+                }
+            }
+        }
+    }
+
+    .link-page-paket {
+        .btn-link-page-paket {
+            border-radius: 4px;
+            background-color: #f2e8e9;
+            color: #82cc79f9;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 40px;
+
+            img {
+                padding-left: 2px;
+            }
+
+            &:hover {
+                background-color: #82cc79f9;
+                color: #f2e8e9;
+            }
+        }
+    }
+}
+
+// HL Situs
+.section-hl-situs {
+    min-height: 260px;
+    background-color: #72373cf7;
+    margin-bottom: 40px;
+
+    .hl-situs-row {
+        padding: 50px;
+
+        .heading-hl-situs {
+            h2 {
+                margin-top: 20px;
+                font-family: "kalam";
+                font-size: 38px;
+                font-weight: bold;
+            }
+
+            p {
+                margin-top: 30px;
+                text-align: justify;
+                font-size: 18px;
+            }
+        }
+
+        .btn-link-page-situs {
+            background-color: #f2e8e9;
+            color: #82cc79f9;
+            border: 0;
+            border-radius: 4px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 40px;
+
+            &:hover {
+                background-color: #82cc79f9;
+                color: #f2e8e9;
+            }
+        }
+
+        .card-hl-situs {
+            height: 300px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            position: relative;
+
+            a {
+                &:hover {
+                    text-decoration: none !important;
+                }
+            }
+
+            .hl-situs-content {
+                position: relative;
+                margin-top: 230px;
+
+                .hl-situs-name {
+                    margin-bottom: 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #ffffff;
+
+                    span {
+                        background-color: #212529;
+                    }
+
+                    &:hover {
+                        text-decoration: none !important;
+                        color: #82cc79f9 !important;
+                    }
+                }
+            }
+        }
+
+        .hl-situs-bg {
+            opacity: 0.6;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+        }
+    }
+}
+
+//Popup WA
+.wa-popup {
+    margin: -60px 0 20px;
+    position: fixed;
+    z-index: 1000;
+    right: 10px;
+    bottom: 50px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+//Instagram
+.section-ig {
+    min-height: 700px;
+    margin-bottom: 40px;
+
+    .ig-heading-row {
+        .ig-heading {
+            h2,
+            p,
+            a {
+                color: #a56c70;
+            }
+
+            h2 {
+                font-family: "Kalam";
+                font-size: 38px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 18px;
+
+                a {
+                    font-weight: 600;
+
+                    &:hover {
+                        text-shadow: 0px 3px 6px #00000029;
+                        text-decoration: none;
+                        color: #82cc79f9;
+                    }
+                }
+            }
+        }
+    }
+
+    .ig-content-row {
+        margin-top: 30px;
+    }
+}
+
+//testimoni
+.testimoni {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    h2 {
+        font-family: "kalam";
+        font-weight: bold;
+        font-size: 38px;
+        color: #a56c70;
+    }
+
+    p {
+        margin-top: 15px;
+        text-shadow: 0 3px 6px #00000029 !important;
+        color: #a56c70;
+        font-size: 18px;
+    }
+
+    .row.testimoni-content {
+        margin-top: 30px;
+        p {
+            text-shadow: none;
+            color: #161616 !important;
+            text-align: left;
+            text-decoration: none;
+        }
+
+        h4,
+        h5 {
+            color: #d8a2a6;
+        }
+
+        h4 {
+            font-weight: 550;
+        }
+    }
+
+    .link-page-testimoni {
+        .btn-link-page-testimoni {
+            border-radius: 4px;
+            background-color: #f2e8e9;
+            color: #a56c70;
+            font-size: 17px;
+            font-weight: 550;
+            margin-bottom: 40px;
+
+            &:hover {
+                background-color: #d8a2a6;
+                color: #fafafa;
+            }
+        }
+    }
+}
+
+//Partner
+.section-partner {
+    background: linear-gradient(
+        to bottom,
+        #f9f1f1f7 0%,
+        #fcfcfcf7 0%,
+        #f9eef0fa 100%
+    );
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    h2 {
+        font-family: "kalam";
+        font-weight: bold;
+        font-size: 38px;
+        color: #a56c70;
+    }
+
+    p {
+        font-size: 18px;
+        color: #a56c70;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+// Detai Pemandu
+.section-pemandu-content-detail {
+    background-color: rgba(229, 221, 223, 0.94);
+
+    .pemandu-judul {
+        color: #589351;
+    }
+}
+
+.card-img-top-detail {
+    img {
+        width: 80px;
+        margin: auto;
+    }
+}
+
+.pemandu-detail {
+    color: #2e2c2c;
+    font-size: 18px;
+    font-weight: 600;
+
+    .sapa-pemandu {
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+}
+
+//Page Paket
+.section-paket-content {
+    min-height: 250vh;
+}
+
+.card-paket,
+.card-situs {
+    border-radius: 0;
+
+    .paket-heading,
+    .situs-heading {
+        h1 {
+            font-family: "kalam";
+            font-size: 30px;
+            color: #a56c70;
+        }
+
+        hr {
+            border: 1px solid #82cc79f9;
+            width: 200px;
+            margin-top: 0;
+        }
+    }
+}
+
+//Page Detail Paket
+
+.section-detailPaket-header,
+.section-paket-header,
+.section-situs-header,
+.section-header {
+    min-height: 350px;
+    background: #e5dddfef;
+    margin-top: -77px;
+}
+
+.section-detailp-content {
+    min-height: 100vh;
+}
+
+.card-detailp,
+.card-right {
+    border-radius: 10px;
+}
+
+.card-detailp {
+    padding: 30px;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #a56c70;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #a56c70;
+    }
+
+    .features {
+        margin-top: 15px;
+        margin-left: 10px;
+
+        h3 {
+            font-size: 18px;
+            color: #2d5728;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .feature-desc {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .feature-image {
+            width: 45px;
+            float: left;
+            height: 45px;
+        }
+
+        hr {
+            margin-left: -10px;
+            width: 650px;
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #2d5728;
+    }
+
+    p {
+        font-size: 18px;
+        color: #b1b1b1;
+        font-weight: 300;
+        text-align: justify;
+    }
+}
+
+.card-right {
+    padding: 30px 25px 20px;
+
+    h2 {
+        margin-top: 10px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #72373cfc;
+        text-align: right;
+    }
+
+    li {
+        margin-top: 10px;
+        text-align: right;
+        font-size: 15px;
+        font-weight: 400;
+        color: #b1b1b1;
+
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    form {
+        margin-top: 35px;
+        color: #707070;
+
+        input,
+        select {
+            margin-left: -3px;
+        }
+    }
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+
+.join-container {
+    margin-top: -10px;
+}
+
+.btn-join-now {
+    background-color: #82cc79f9;
+    color: #f2e8e9;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+    &:hover {
+        background-color: #92e488;
+        color: #fafafa;
+    }
+}
+
+.term {
+    padding: 30px;
+    margin-top: 30px;
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #2d5728;
+    }
+
+    p {
+        font-size: 16px;
+        color: #b1b1b1;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+
+.gallery-paket {
+    margin: 20px 0 10px;
+
+    .xzoom-container {
+        display: block;
+
+        .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// Form Pemesanan
+
+.pesan-heading {
+    h1 {
+        font-family: Assistant;
+        font-size: 30px;
+        font-weight: 520;
+        color: #a56c70;
+    }
+
+    hr {
+        border: 2px solid #82cc79f9;
+        width: 100px;
+        margin-top: 0;
+    }
+}
+
+.section-form-pesan {
+    label {
+        color: #2e0a0cfc;
+        font-family: Assistant;
+        font-size: 16px;
+    }
+}
+
+.btn-pesan {
+    background-color: #82cc79f9;
+    color: #f2e8e9;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+
+    &:hover {
+        color: #f2e8e9;
+    }
+}
+
+.note-pesan {
+    color: #b1b1b1;
+
+    h5 {
+        color: #2d5728;
+    }
+}
+
+// Page Site

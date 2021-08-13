@@ -1,0 +1,37 @@
+.card-dashboard-event {
+    min-height: 410px;
+    border-radius: 5px;
+
+    .card-body {
+        color: #5a272afc;
+
+        .event-nama h3 {
+            font-size: 22px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .event-date {
+            font-weight: 600;
+            line-height: 23px;
+        }
+        .event-short-deskripsi {
+            text-align: justify;
+            font-weight: 350;
+            line-height: 23px;
+            margin-top: 12px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.btn-selengkapnya {
+    background-color: #82cc79;
+    color: #fafafa;
+    font-size: 15px;
+
+    &:hover {
+        background-color: #fafafa;
+        color: #82cc79;
+    }
+}
