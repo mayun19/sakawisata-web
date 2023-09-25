@@ -1,61 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+![Logo](https://i.ibb.co/kQxfxB3/logo-sakawis.png)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# SAKAWISATA - Heritage Tourism Management
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+web-based tourism information system for Kampung Wisata Kauman
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Problem Identification
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- The promotions that have been done doesn't seem to be optimal. 
+- In Kampung Wisata Kauman, a digital transformation has already occured, but only for ticket reservations through phone or WhatsApp.
+- The lack of information and the slow response to WhatsApp messages from customers.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Aims of the website-based tourism information system
 
-## Laravel Sponsors
+To make it easier for tourists to explore their options, to make and manage reservations for tour packages, and to help Sakawisata, who runs the site, manage those reservations much more efficiently.
+## Feature
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+In the Kampung Wisata Kauman system, there are three types of actors: general users, members, and administrators. 
 
-### Premium Partners
+**General users** 
+- View tour packages, browse the site in kampung wisata kauman, view the profile of Kampung Wisata Kauman.
+- Register to become a member, receive an email indicating whether their registration has been accepted or rejected.
+- View reviews.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+**Members** 
+- Edit their profiles.
+- Book tour packages.
+- Receive invoices via email.
+- Confirm payments and receive payment status notifications via email.
+- View reservation history.
+- Fill out reviews if they have completed a visit.
+- Reschedule visits, accept the admin's. recommendations for their rescheduling request or propose a new date and time of their own.
+- Cancel their reservations. 
 
-## Contributing
+**Administrators**
+- Manage any of the following: tour packages, sites, facilities, member data, tour guides data, visit sessions, reservations, payments, and reviews in addition to editing the profile of Kampung Wisata Kauman and validating user registration. 
+- Visit report data can be customised based on certain time periods (per month and year).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Tech Stack
+Research steps using a prototyping approach
 
-## Security Vulnerabilities
+- Prototyping using **Adobe XD and Zeplin**
+- System Developing using **Laravel framework, PHP programming language, and Bootstrap as CSS Framework**.
+- Testing using **black-box and usability.** 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+## Roadmap
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- BPMN diagram of the flow of booking a tour package in Kampung Wisata Kauman before using the system
+![before](https://github.com/mayun19/sakawisata-web/assets/16263184/509261aa-9d8a-4ca8-9603-fe40375eef38)
+
+- BPMN diagram of the flow of booking a tour package in Kampung Wisata Kauman after using the system
+![after](https://github.com/mayun19/sakawisata-web/assets/16263184/ab102ac3-b4fc-419b-857a-ae5f7d821627)
+
+
+## Screenshots
+
+- The website's homepage features tour packages, sites, Instagram account, and reviews.
+![homepage](https://github.com/mayun19/sakawisata-web/assets/16263184/ea2ff695-474e-46ac-b933-1742ea894bb1)
+
+- The website's tour package and the order page.
+![Tour package list](https://github.com/mayun19/sakawisata-web/assets/16263184/c898d60c-bec4-4fcb-9fcf-1da6ecfcf30c)
+![Form Orfer](https://github.com/mayun19/sakawisata-web/assets/16263184/d941fa21-495b-4dd4-8041-ca2333cf33e8)
+
+- The website's Member’s booking history page and Payment Confirmation Page
+![Order history](https://github.com/mayun19/sakawisata-web/assets/16263184/7812dbb7-ed67-4506-b336-620be785ac27)
+![Payment information](https://github.com/mayun19/sakawisata-web/assets/16263184/18619b56-39ae-4c25-b886-75bb44542e9c)
+
